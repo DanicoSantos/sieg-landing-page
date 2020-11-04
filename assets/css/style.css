@@ -3,6 +3,11 @@
     --light: #fff;
     --primary: darkred;
     --secondary: #e4e4e4;
+    --grey: #8b8888;
+}
+
+body {
+    position: relative;
 }
 
 .navbar-custom {
@@ -40,13 +45,17 @@
 
 .disclaimer__container {
     min-height: 10rem;
-    padding: 10rem 0 0 0;
+    padding: 10rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     
+}
+
+.disclaimer__illustration {
+    margin: 3rem 0;
 }
 
 .disclaimer__title {
@@ -60,4 +69,29 @@
     color: var(--secondary);
     margin: 0 6rem;
     font-size: 1.5rem;
+}
+
+/* Pillars */
+
+.pillars {
+    background: var(--secondary);
+    padding: 3rem 0;
+}
+
+.pillars__title {
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.pillars__secondary-title {
+    color: var(--dark);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.pillars__subtitle {
+    color: var(--grey);
 }
