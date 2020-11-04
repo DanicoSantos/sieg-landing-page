@@ -34,3 +34,30 @@
     margin-top: 1.2rem;
     margin-right: 5rem;
 }
+
+
+/* Disclaimer */
+
+.disclaimer__container {
+    min-height: 10rem;
+    padding: 10rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.disclaimer__title {
+    color: var(--primary);
+    font-weight: bold;
+    max-width: 15rem;    
+    font-size: 2rem;
+}
+
+.disclaimer__subtitle {
+    color: var(--secondary);
+    margin: 0 6rem;
+    font-size: 1.5rem;
+}
