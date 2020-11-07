@@ -5,8 +5,8 @@
 }
 
 .map__title {
-    color: var(--primary);
-    font-size: 2rem;
+    color      : var(--primary);
+    font-size  : 2rem;
     font-weight: bold;
 }
 
@@ -22,5 +22,16 @@
 .map__view {
     background: var(--primary);
     min-height: 20rem;
+    overflow  : hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
 
+.map__view iframe {
+    left: 5%;
+    top:5%;
+    height:90%;
+    width:90%;
+    position:absolute;
 }

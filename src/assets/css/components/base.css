@@ -1,15 +1,29 @@
 :root {
-    --dark: #000;
-    --light: #fff;
-    --primary: darkred;
-    --secondary: #e4e4e4;
-    --grey: #8b8888;
-    font-size: 12px;
+    --dark     : #000;
+    --light    : #eee;
+    --primary  : #672221;
+    --secondary: #f6f6f6;
+    --grey     : #797575;
+    font-size  : 12px;
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    position: relative;
+    position   : relative;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Saira', sans-serif;
 }
 
 p {
@@ -26,5 +40,3 @@ p {
     }
 
 }
-
-
