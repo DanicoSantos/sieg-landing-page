@@ -10,16 +10,40 @@
     align-items: center;
     background: var(--dark);
     color: var(--secondary);
-    
 }
 
 .banner__title {
     font-weight: bold;
-    max-width: 10rem;
+    max-width: 18rem;
 }
 
 .banner__subtitle {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 1.2rem;
-    margin-right: 5rem;
+    max-width: 75%;
+}
+
+.banner__scroll-icon {
+    align-self: center;
+    margin-bottom: 1.8rem;
+}
+
+@media (min-width: 720px) {
+
+    .banner__container {        
+        display: block;        
+    }
+
+    .banner__title-container {
+        border-left: 5px solid var(--light);
+        padding-left: 3rem;
+    }
+
+    .banner__title {
+        max-width: 20rem;
+    }
+
+    .banner__subtitle {
+        max-width: 75%;
+    }
 }
