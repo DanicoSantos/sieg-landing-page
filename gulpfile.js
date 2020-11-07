@@ -14,7 +14,7 @@ const concat = require('gulp-concat');
 const srcCssGlob = 'src/assets/css/components/*.css';
 
 // BUndle path
-const bundlePath = 'dist/assets/css'
+const bundlePath = 'src/assets/css'
 
 // Bundle name
 const bunldleName = 'style.bundle.min.css';
