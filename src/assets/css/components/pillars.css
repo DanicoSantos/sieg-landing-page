@@ -23,9 +23,13 @@
     color: var(--grey);
 }
 
+.pillars__illustration img {
+    width: 4rem;
+}
+
 @media (min-width: 720px) {
     .pillars__subtitle {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
 }

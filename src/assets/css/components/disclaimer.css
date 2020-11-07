@@ -12,7 +12,11 @@
 }
 
 .disclaimer__illustration {
-    margin: 3rem 0;
+    margin: 1rem 0;
+    background: url('../img/disclaimer-illustration.svg') no-repeat center center;
+    background-size: contain;
+    height: 10rem;
+    width: 10rem;
 }
 
 .disclaimer__title {

@@ -6,7 +6,8 @@
 }
 
 .cta__content {
-    background     : var(--dark);
+    background     : url('../img/bg-cta.png') no-repeat center center;
+    background-size: contain;
     display        : flex;
     flex-direction : column;
     justify-content: space-between;
@@ -33,11 +34,26 @@
     border-width : 0.2rem;
     color        : var(--light);
     border-color : var(--light);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta__icon {
+    background: url('../img/whatsapp-icon.svg') no-repeat center center;
+    background-size: contain;
+    margin-right: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 @media (min-width: 720px) {
     .cta {
-        background: var(--dark);
-        padding   : 6rem 0;
+        background: url('../img/bg-cta.png') no-repeat center center;
+        background-size: cover;
+        padding   : 7rem 0;
+    }
+
+    .cta__content {
+        background: transparent;
     }
 }

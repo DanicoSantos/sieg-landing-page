@@ -28,6 +28,22 @@
     margin: 3rem 0;
 }
 
+.customers__container_background-1 {
+    background: url('../img/bg-solution-1.png') no-repeat center center;
+    background-size: cover;
+}
+
+
+.customers__container_background-2 {
+    background: url('../img/bg-solution-2.png') no-repeat center center;
+    background-size: cover;
+}
+
+.customers__container_background-3 {
+    background: url('../img/bg-solution-3.png') no-repeat center center;
+    background-size: cover;
+}
+
 .customers__secondary-title {
     color: var(--light);
     font-size: 2rem;

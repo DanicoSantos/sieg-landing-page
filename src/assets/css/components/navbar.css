@@ -12,3 +12,7 @@
 .navbar-dark .navbar-nav .nav-link:hover {
     color: var(--grey);
 }
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url('../img/mobile-menu-icon.svg');
+}
