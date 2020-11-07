@@ -1,0 +1,37 @@
+/* Customers */
+
+.customers {
+    padding: 3rem 0;
+}
+
+.customers__title {
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.customers__subtitle {
+    color: var(--secondary);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 1rem;
+
+}
+
+.customers__container {
+    background: var(--dark);
+    min-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.customers__secondary-title {
+    color: var(--light);
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}

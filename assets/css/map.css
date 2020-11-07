@@ -1,0 +1,26 @@
+/* Map */
+
+.map {
+    padding: 3rem 0;
+}
+
+.map__title {
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.map__subtitle {
+    color: var(--grey);
+
+}
+
+.map__styled-subtitle-component {
+    font-weight: bold;
+}
+
+.map__view {
+    background: var(--primary);
+    min-height: 20rem;
+
+}

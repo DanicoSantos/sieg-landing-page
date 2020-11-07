@@ -1,0 +1,36 @@
+/* CTA */
+
+.cta {
+    background: var(--secondary);
+    padding: 3rem 0;
+}
+
+.cta__content {
+    background: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem 2rem;    
+}
+
+.cta__title {
+    color: var(--light);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cta__styled-title-component {
+    font-weight: normal;
+    display: block;
+}
+
+.cta__subtitle {
+    color: var(--light);
+}
+
+.cta__button {
+    border-radius: 2rem;
+    border-width: 0.2rem;
+    color: var(--light);
+    border-color: var(--light);
+}

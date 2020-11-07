@@ -1,0 +1,28 @@
+/* Disclaimer */
+
+.disclaimer__container {
+    min-height: 10rem;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.disclaimer__illustration {
+    margin: 3rem 0;
+}
+
+.disclaimer__title {
+    color: var(--primary);
+    font-weight: bold;
+    max-width: 15rem;    
+    font-size: 2rem;
+}
+
+.disclaimer__subtitle {
+    color: var(--secondary);
+    font-size: 1.5rem;
+}

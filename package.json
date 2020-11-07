@@ -1,0 +1,11 @@
+{
+  "name": "siseg-landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DanicoSantos/sieg-landing-page.git",
+  "author": "Daniel Santos <dados.dan.santos@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

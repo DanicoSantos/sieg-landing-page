@@ -1,0 +1,13 @@
+:root {
+    --dark: #000;
+    --light: #fff;
+    --primary: darkred;
+    --secondary: #e4e4e4;
+    --grey: #8b8888;
+}
+
+body {
+    position: relative;
+}
+
+

@@ -1,0 +1,12 @@
+/* Footer */
+
+.footer {
+    padding-top: 1rem;
+    background: var(--dark);
+    color: var(--light);
+}
+
+.footer__divide {
+    border-bottom: solid;
+    border-color: var(--light);
+}
