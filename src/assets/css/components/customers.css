@@ -35,3 +35,10 @@
     width: 50%;
     text-align: center;
 }
+
+@media (min-width: 720px) {
+    .customers__subtitle {
+        font-size: 1.8rem;
+    
+    }
+}
