@@ -26,3 +26,15 @@
     color: var(--secondary);
     font-size: 1.5rem;
 }
+
+@media (min-width: 720px) {
+    .disclaimer__title {
+        max-width: 100%;    
+    }
+
+    .disclaimer__subtitle {
+        max-width: 35%;
+        margin-top: 1rem;
+        font-size: 1.8rem;
+    }
+}
