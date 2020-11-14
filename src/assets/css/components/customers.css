@@ -12,7 +12,7 @@
 }
 
 .customers__subtitle {
-    color: var(--secondary);
+    color: var(--grey);
     font-size: 1.5rem;
     text-align: center;
     margin: 0 1rem;
@@ -22,10 +22,8 @@
 .customers__container {
     background: var(--dark);
     min-height: 30rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 3rem 0;
+    padding: 1.2rem;
 }
 
 .customers__container_background-1 {
@@ -48,8 +46,18 @@
     color: var(--light);
     font-size: 2rem;
     font-weight: bold;
-    width: 50%;
     text-align: center;
+}
+
+.customers__list-item {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.customers__list-item:hover {
+    background: var(--light);
+    color: var(--dark);
 }
 
 @media (min-width: 720px) {
