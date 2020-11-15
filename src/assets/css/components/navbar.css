@@ -4,11 +4,24 @@
     background-color: var(--dark);
 }
 
+.navbar-collapse {
+    background: url('../img/bg-navbar-mobile.png');
+    height: 90vh;
+    display: flex;
+}
+
+.collapse .navbar-collapse {
+    display: none;
+    height: 0;
+}
+
+
 
 .navbar-dark .navbar-nav .nav-link {
-    color: var(--secondary);
+    color      : var(--secondary);
     font-family: 'Saira', sans-serif;
-    font-size: 1.2rem;
+    font-size  : 1.8rem;
+    font-weight: bold;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -17,4 +30,16 @@
 
 .navbar-dark .navbar-toggler-icon {
     background-image: url('../img/mobile-menu-icon.svg');
+}
+
+@media (min-width: 992px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size  : 1.2rem;
+        font-weight: normal;
+    }
+
+    .navbar-collapse {
+        height: auto;
+        background: transparent;
+    }
 }

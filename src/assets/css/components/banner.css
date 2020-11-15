@@ -1,7 +1,7 @@
 /* Banner */
 
 .banner__container {
-    min-height: 40rem;
+    min-height: 50rem;
     max-width: 100%;
     padding: 6rem 0 0 1.5rem;
     display: flex;
@@ -29,7 +29,7 @@
     margin-bottom: 1.8rem;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 992px) {
 
     .banner__container {        
         display: block; 
