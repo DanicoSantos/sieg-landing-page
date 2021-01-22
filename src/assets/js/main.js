@@ -34,7 +34,6 @@ const scrollIntoView = (element) => {
 
 for (let section of sections) {
     scrollIntoView(section);
-    console.log(section);
 };
 
 const menuItemLink = $('.nav-link');
