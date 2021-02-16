@@ -60,6 +60,31 @@
     color: var(--dark);
 }
 
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel-control-next, .carousel-control-next {
+    opacity: 1;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../img/arrow.svg');
+    background-size: contain;
+    transform: rotate(-90deg);
+    height: 50px;
+    width: 50px;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../img/arrow.svg');
+    background-size: contain;
+    transform: rotate(90deg);
+    height: 50px;
+    width: 50px;
+}
+
 @media (min-width: 720px) {
     .customers__subtitle {
         font-size: 1.8rem;
